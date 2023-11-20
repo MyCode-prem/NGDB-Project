@@ -51,46 +51,39 @@ button {
    
  .container { 
         padding: 10px; 
-        /*background-color: wheat;*/
-        background-image: url('p2.jpg');
+        background-color: wheat;
+        /*background-image: url('p2.jpg');*/
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
     } 
-</style> 
+</style>
 </head>  
 <body>  
     <center> <h1> Sports Platform for NITT </h1> </center> 
-    <form>
-        
+    <form action ="connect1.php" method="post">
         <div class="container"> 
             <label>  *****   Only First Years(PG/UG)  ******</label><br><br>
             <label>Name: </label> 
             <input type="text" placeholder="Enter Name" name="name" required><br>
             <label>Roll Number : </label> 
-            <input type="text" placeholder="Enter Roll NO" name="Roll No" required><br><br>
-            <label>Sports Intrested in : </label><br><br>
-            <input type="checkbox" id="cricket" name="cricket" value="cricket">
-            <label for="cricket"> Cricket</label><br>
-            <input type="checkbox" id="fb" name="fb" value="fb">
-            <label for ="fb">Football</label><br>
-            <input type="checkbox" id="bt" name="bt" value="bt">
-            <label for="bt"> Badminton</label><br>
-            <input type="checkbox" id="Athletics" name="Athletics" value="Athletics">
-            <label for="Athletics"> Athletics</label><br>
-            <input type ="checkbox" id ="vb" name="vb" value ="vb">
-            <label for ="vb">Volley Ball</label><br>
-            <input type ="checkbox" id ="hb" name="hb"  value="hb">
-            <label for ="hb">Hand Ball</label><br>
-            <input type="checkbox" id="sw" name="sw" value="sw">
-            <label for ="sw">Swimming</label><br>
-            <input type ="checkbox" id="ko" name ="ko" value="ko">
-            <label for="ko">KHO - KHO</label><br><br>
-            <label for="oth">OTHER GAMES</label>
-            <input type ="text" placeholder="mention sports name" name="oth"><br>
+            <input type="text" placeholder="Enter Roll NO" name="rollno" required><br><br>
+            <label>Sports Intrested in : </label>
+            <select name="Sports" id="Sports">
+                <option value="cricket">Cricket</option>
+                <option value="Badminton">Badminton</option>
+                <option value="Football">Football</option>
+                <option value="Volleyball">Volleyball</option>
+                <option value="Handball">Handball</option>
+                <option value ="Kabbadi">Kabbadi</option>
+                <option value ="kho-kho">kho-kho</option>
+                <option value ="Athletics">Athletics</option>
+              </select>
+              <br><br>
             <label>Phone Number: </label>
-            <input type="text" placeholder="Enter Phone Number" name="phno" required><br>
-            <button type="submit" id="submitButton">Done!</button> 
+            <input type="number" placeholder="Enter Phone Number" name="contact" required><br>
+            <button>Done!</button> 
+            <input type ="submit" name="submit">
         </p>
         </div> 
     </form> 
