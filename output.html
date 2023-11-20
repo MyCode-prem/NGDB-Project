@@ -1,0 +1,77 @@
+
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Output Page </title>
+<style> 
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: white;
+  
+}
+button { 
+       background-color: black; 
+       width: auto;
+       align-content: center;
+        color: red; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+ form { 
+        border: 3px solid #f1f1f1; 
+    } 
+ input[type=text]{ 
+        width: auto; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid black; 
+        box-sizing: border-box; 
+    }
+    input[type=checkbox]{ 
+        width: auto; 
+        margin: 8px 8px;
+        padding: 20px; 
+        display: inline-block; 
+        border: 2px solid black; 
+        box-sizing: border-box;
+        vertical-align: middle;
+       margin-right: 10px; 
+    }
+ 
+    
+ button:hover { 
+        opacity: 0.7; 
+    } 
+
+      
+   
+ .container { 
+        padding: 10px; 
+        background-color: wheat;
+        /*background-image: url('p2.jpg');*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    } 
+</style>
+</head>  
+<body>  
+    <center> <h1> Sports Platform for NITT </h1> </center> 
+    <form action ="connect2.php" method="get">
+        <div class="container"> 
+            <label>  *****   Only First Years(PG/UG)  ******</label><br><br>
+            <label>Enter ID Number :  </label> 
+            <input type="text" placeholder="Enter Roll NO" name="rollno" required><br><br>
+            <label>Sports Intrested in : </label>
+            <input type="text" placeholder="Enter Sports" name="" required><br><br>
+            <button type="submit" name="submt">submit</button>
+              <br><br>
+        </p>
+        </div> 
+    </form> 
+   </body>
+</html>
