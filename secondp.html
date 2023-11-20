@@ -1,0 +1,92 @@
+
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> NITT Present Student Entry </title>
+<style> 
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: white;
+  
+}
+button { 
+       background-color: black; 
+       width: auto;
+       align-content: center;
+        color: red; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+ form { 
+        border: 3px solid #f1f1f1; 
+    } 
+ input[type=text]{ 
+        width: auto; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid black; 
+        box-sizing: border-box; 
+    }
+    input[type=checkbox]{ 
+        width: auto; 
+        margin: 8px 8px;
+        padding: 20px; 
+        display: inline-block; 
+        border: 2px solid black; 
+        box-sizing: border-box;
+        vertical-align: middle;
+       margin-right: 10px; 
+    }
+ 
+    
+ button:hover { 
+        opacity: 0.7; 
+    } 
+
+      
+   
+ .container { 
+        padding: 10px; 
+        background-color: wheat;
+        /*background-image: url('p2.jpg');*/
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    } 
+</style>
+</head>  
+<body>  
+    <center> <h1> Sports Platform for NITT </h1> </center> 
+    <form action ="connect.php" method="post">
+        <div class="container"> 
+            <label>  *****   Other than First Years  ******</label><br><br>
+            <label>Name: </label> 
+            <input type="text" placeholder="Enter Name" name="name" required><br>
+            <label>Roll Number : </label> 
+            <input type="text" placeholder="Enter Roll NO" name="RollNo" required><br><br>
+            <label>Sports Intrested in : </label>
+            <select name="Sports" id="Sports">
+                <option value="cricket">Cricket</option>
+                <option value="Badminton">Badminton</option>
+                <option value="Football">Football</option>
+                <option value="Volleyball">Volleyball</option>
+                <option value="Handball">Handball</option>
+                <option value ="Kabbadi">Kabbadi</option>
+                <option value ="kho-kho">kho-kho</option>
+                <option value ="Athletics">Athletics</option>
+              </select>
+              <br><br>
+            <label>Phone Number: </label>
+            <input type="number" placeholder="Enter Phone Number" name="phno" required><br>
+            <label>Willing to share the data</label>
+            <input type ="text" placeholder ="(YES/NO) " name="Willing" required><br><br>
+            <button type="submit" id="submitButton">Done!</button> 
+        </p>
+        </div> 
+    </form> 
+   </body>
+</html>
