@@ -5,6 +5,6 @@ We will take the student data of first years and already studying students and s
 I will store the data in MYSQl using php and retrive the results according to the student required sport.
 I used HTML,CSS,JavaScript for Front End.
 I executed the code after keeping the files in Xaamp->htdocs->NGDB to work in localhost.
-As per Dr.Janet mam suggestion I think GRAPHDB will be suitable for my problem . I am thinking of working in NEO4J.
-I am working on it.
+As per Dr.Janet mam suggestion I think GRAPHDB will be suitable for my problem .
+I am thinking of working in NEO4J and started doing work in neo4j.
 # This is a classroom project did under DR.JANET mam
